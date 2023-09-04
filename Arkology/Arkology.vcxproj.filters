@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{0a7a48c0-05d7-4b10-9106-bf22b560d047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{75eaee92-2476-48de-9a28-04ffa503a26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Arquivos de Cabeçalho">
+      <UniqueIdentifier>{15ee6b00-58b4-4572-8c32-76e449e56dac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Arquivos de Origem">
+      <UniqueIdentifier>{2d14013b-557e-4d23-9039-7a603c369862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Arquivos de Sombreamento">
+      <UniqueIdentifier>{add326dc-8e9e-4840-92c5-a5876863cbb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Arquivo de Cabeçalho">
+      <UniqueIdentifier>{26ccb663-381e-43be-b1f4-d9e105ba7f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Arquivos de Origem">
+      <UniqueIdentifier>{111889b6-c979-48a9-9f09-7096a09e2b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Arquivos de Recurso">
+      <UniqueIdentifier>{c31bd90b-2170-46fe-91aa-636b18bcfc3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine\Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Engine\Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Engine\Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Engine\Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Engine\Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Engine\Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Engine\Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine\Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine\Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Engine\Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Engine\Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Engine\Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Engine\Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Arkology.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Home.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Pivot.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Block2.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Block3.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Block4.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Block5.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Block6.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Block7.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Block8.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Block9.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalFase1.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Maze.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Playermaze.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Statue.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Partstatue.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy2.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Partstatue2.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Partstatue3.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Partstatue4.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Partstatue5.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy3.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy4.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy5.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy6.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy7.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy8.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy9.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy10.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy11.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy12.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy13.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy14.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Fase2.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalFase2.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Playerfase2.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Block10.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Block11.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameover.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummyarrow.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalFinalFase2.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockFinal.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Telafinal.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Pedraportal.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Telacarregamento.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Telacarregamento2.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummyfase2.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Blockportal2.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Blockportal1.h">
+      <Filter>Game\Arquivo de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Engine\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Engine\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Engine\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Engine\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Engine\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Engine\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Engine\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Engine\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Engine\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Engine\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Arkology.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Home.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Pivot.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Block2.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Block3.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Block4.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Block5.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Block6.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Block7.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Block8.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Block9.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalFase1.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Maze.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Playermaze.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Statue.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Partstatue.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy2.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Partstatue2.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Partstatue3.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Partstatue4.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Partstatue5.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy3.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy4.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy5.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy6.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy7.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy8.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy9.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy10.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy11.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy12.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy13.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy14.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Fase2.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalFase2.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Playerfase2.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Block10.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Block11.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameover.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalFinalFase2.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockFinal.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Telafinal.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Pedraportal.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Telacarregamento.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Telacarregamento2.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummyfase2.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Blockportal2.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Blockportal1.cpp">
+      <Filter>Game\Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Game\Arquivos de Recurso</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Pixel.hlsl">
+      <Filter>Engine\Arquivos de Sombreamento</Filter>
+    </FxCompile>
+    <FxCompile Include="Vertex.hlsl">
+      <Filter>Engine\Arquivos de Sombreamento</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="PivotsL1.txt">
+      <Filter>Game\Arquivos de Recurso</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
