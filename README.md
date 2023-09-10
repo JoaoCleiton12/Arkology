@@ -1,1 +1,3 @@
 # Arkology
+
+Dr. Daniel Turner, um renomado arqueólogo explorador, passou anos estudando mapas antigos e textos misteriosos em busca de pistas sobre uma pirâmide esquecida no coração do deserto. A lenda dizia que esta pirâmide guardava segredos e riquezas inimagináveis. Daniel partiu então em uma expedição perigosa rumo ao deserto escaldante, enfrentando tempestades de areia, escassez de recursos e ameaças de saqueadores enquanto se aproximavam da pirâmide. Finalmente, após semanas de jornada árdua, ele chegou à localização da pirâmide, entretanto teve que enfrentar alguns desafios antes mesmo de começar a explorar o interior da pirâmide...
